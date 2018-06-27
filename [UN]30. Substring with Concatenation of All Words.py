@@ -76,7 +76,7 @@ def find(s, words):
     print(l1)
     print(l2)
 
-print('barfoofoobarthefoobarman',['foo','bar','the'])
-print('wordgoodgoodgoodbestword',['word','good','best','good'])
-print('barfoothefoobarman',['foo','bar'])
-print('ababaab',['ab','ba','ba'])
+print(find('barfoofoobarthefoobarman',['foo','bar','the']))
+print(find('wordgoodgoodgoodbestword',['word','good','best','good']))
+print(find('barfoothefoobarman',['foo','bar']))
+print(find('ababaab',['ab','ba','ba']))
