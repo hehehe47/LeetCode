@@ -25,3 +25,5 @@ d = [0, l.val][not l]
 print(c)
 print(7 / 10)
 print(7 // 10)
+d = {1: 2}
+print(type(d.keys()))
