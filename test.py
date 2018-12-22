@@ -26,4 +26,12 @@ print(c)
 print(7 / 10)
 print(7 // 10)
 d = {1: 2}
-print(type(d.keys()))
+c = 0
+for i in range(1, 10):
+    for b in range(11, 20):
+        if b > 10:
+            break
+        c = 1
+a = '++1'
+# a[0] = '' if a[0] == '+' else a[0]
+print(a)
