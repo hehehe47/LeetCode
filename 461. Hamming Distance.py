@@ -19,4 +19,4 @@ def hamming(x, y):
     return count
 
 
-print(hamming(1, 4))
+print(hamming(132421, 44321))

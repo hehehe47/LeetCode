@@ -26,6 +26,7 @@ def letter(digits):
     if not digits:
         return []
     d = {'2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'}
+
     r = [x for x in d[digits[0]]]  # 初始化第一位
     # print(r)
     for i in digits[1:]:
@@ -40,4 +41,9 @@ def letter(digits):
     return r
 
 
+a = '123'
+a.capitalize()
+print(a)
 print(letter('123'))
+print('asdf')
+print(list.__doc__)
