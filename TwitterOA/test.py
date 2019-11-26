@@ -1,9 +1,8 @@
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*- 
-# @Time : 2019/10/6 15:39 
+# @Time : 2019/10/8 18:08 
 # @Author : Patrick 
-# @File : test3.py 
+# @File : classroom.py
 # @Software: PyCharm
-# def findabc(s):
-s = 'abc'
-print(s[9:10])
+l = []
+l.append((1, 2))

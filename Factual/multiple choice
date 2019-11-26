@@ -1,0 +1,15 @@
+1 正则 A+B+
+2 12:15 82.5
+3 两个表 计数 select**** join *** on *** group by****
+5 三个均质硬币 抛出一个正面的概率 3/8
+
+
+import re
+
+l = ['AB','AABB','ABBBBBBBBBBBB','AAAAAAAAAB']
+l2 = ['ABABAB','A','AA BB','AABBA']
+
+for i in l:
+    print(re.search(r'A+B+',i))
+for i in l2:
+    print(re.search(r'A+B+',i))
