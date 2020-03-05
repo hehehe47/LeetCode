@@ -4,3 +4,8 @@
 # @Author : Patrick 
 # @File : test.py 
 # @Software: PyCharm
+
+a = {'a', 'b', 'c'}
+
+a.remove('a')
+print(a)

@@ -6,15 +6,13 @@
 # @Software: PyCharm
 
 
-def favoriteVideoGenre(numUsers, userBooksListenedTo, numGenres, bookGenres):
+def favoriteVideoGenre(userBooksListenedTo, bookGenres):
     ans = {}
     bookToGenres = {}
 
     for gen in bookGenres.keys():
         for book in bookGenres[gen]:
             bookToGenres[book] = gen
-    count = {}
-    m = -float('inf')
     for user in userBooksListenedTo.keys():
         count = {}
         m = -float('inf')
@@ -28,7 +26,7 @@ def favoriteVideoGenre(numUsers, userBooksListenedTo, numGenres, bookGenres):
             m = max(m, c)
 
         for k in count.keys():
-            if (count[k] == m):
+            if count[k] == m:
                 ans[user].append(k)
 
     return ans
