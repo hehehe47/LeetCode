@@ -1,1 +1,3 @@
-print(all([1, 2, 'a', 3, 3, 3]))
+d = {1: 2, 3: 4}
+for i, j in enumerate(d.items()):
+    print(i, j)
